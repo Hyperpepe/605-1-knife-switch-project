@@ -211,6 +211,18 @@ GPU部署需要安装cuda以及cudnn
 
 
 
+
+
+### 验证安装
+
+运行tools中的`test.py`文件，没有报错且输出`True`即`tocrh`安装正确
+
+参考链接：https://blog.csdn.net/weixin_41747193/article/details/122018531
+
+
+
+
+
 ## 四、制作数据集
 
 将从cvat中导出的文件放入yolov5的项目文件夹的datasets文件夹中。
