@@ -211,7 +211,9 @@ GPU部署需要安装cuda以及cudnn
 
 
 
+## 四、制作数据集
 
+将从cvat中导出的文件放入yolov5的项目文件夹的datasets文件夹中。
 
 
 
