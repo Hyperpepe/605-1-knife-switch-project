@@ -227,9 +227,26 @@ GPU部署需要安装cuda以及cudnn
 
 将从cvat中导出的文件放入yolov5的项目文件夹的datasets文件夹中。
 
+```
+basepath
+├── images
+    └── img_num.jpg ....
+├── ImageSets
+    └── train.txt #图片名称的txt文件
+    ....
+├── dataSet_path
+    └── train.txt #存放绝对路径的txt文件
+    ....
+├──labels
+    └── img_num.txt #存放标注信息的txt文件
+    ....
+└── Annotations
+    └── img_num.xml #存放标注信息的xml文件
+```
 
 
 
+参照此处构建数据集结构。
 
 
 
